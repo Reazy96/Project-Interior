@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: AlegreyaSans;
+  src: url(./assets/fonts/AlegreyaSans.ttf);
+}
+
+@font-face {
+  font-family: AlegreyaSC;
+  src: url(./assets/fonts/AlegreyaSC.ttf);
+}
+
+@font-face {
+  font-family: NixieOne;
+  src: url(./assets/fonts/NixieOne.ttf);
+}
+img {
+  max-width: 100%;
+}
+
+header {
+  min-height: 100vh;
+  background-image: url(./assets/img/stylish.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px;
+  font-family: AlegreyaSC;
+  font-size: 36px;
+}
+
+header section {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header section h2 {
+  font-family: NixieOne;
+  font-size: 80px;
+  font-weight: 300;
+}
+header section p {
+  font-family: AlegreyaSC;
+  font-size: 23px;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.bright {
+  min-height: 95vh;
+  background-color: #dfe6e8;
+  padding: 10vh 15vw;
+}
+
+.bright article {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+article a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: 2px solid black;
+  height: 50px;
+  padding: 0 23px;
+  color: black;
+}
+
+.h3withbutton h3 {
+  font-family: AlegreyaSans;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+
+.h3withbutton p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+aside img {
+  object-fit: cover;
+  width: 32%;
+  height: 26vh;
+  margin-bottom: 2.6vh;
+}
+
+aside {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services {
+  min-height: 75vh;
+  background-image: url(./assets/img/yellowcouch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.services .h3withbutton {
+  margin: 0 300px;
+  padding-top: 30px;
+  background-color: rgba(128, 136, 136, 0.15);
+
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about {
+  padding: 80px 160px;
+  margin: 0 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgba(128, 136, 136, 0.15);
+}
+
+.about div {
+  text-align: center;
+
+  width: 20vw;
+  height: 35vh;
+}
+
+.about h4 {
+  font-size: 40px;
+  font-family: AlegreyaSans;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  height: 70vh;
+}
+
+.blue {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.blue img {
+  height: 350px;
+}
+.living {
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.side {
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog img {
+  width: 100%;
+}
+
+.blog h5 {
+  font-family: AlegreyaSans;
+  font-size: 40px;
+}
+
+.blog h6,
+p,
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.getfree {
+  min-height: 50vh;
+  background-image: url(./assets/img/quoteimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  image-rendering: smooth;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 250px;
+}
+
+.getfree div {
+  background-color: rgba(128, 136, 136, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 70px;
+}
+
+.getfree p {
+  font-family: AlegreyaSans;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.getfree a {
+  font-size: 18px;
+  color: white;
+  border: 2px solid white;
+  padding: 20px 30px;
+}
+
+.testimonials {
+  min-height: 75vh;
+  background-color: #dfe6e8;
+}
+.testheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5vw 0 2vw 0;
+}
+
+.testheader h3 {
+  font-size: 40px;
+  font-family: AlegreyaSans;
+}
+
+.testheader p {
+  font-size: 18px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 3vw;
+  padding: 1vw 2vw;
+}
+.doe img {
+  height: 14vw;
+  width: 14vw;
+  padding: 2vw;
+  border-radius: 200px;
+}
+
+.doe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  margin-bottom: 5vw;
+}
+.doe p:nth-of-type(1) {
+  margin-bottom: 1vw;
+}
+
+.doe p:nth-of-type(2) {
+  font-weight: 700;
+  padding: 0.3vw 0;
+}
+
+.contact {
+  height: 60vh;
+  background-image: url(./assets/img/bedroom2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.box2 {
+  color: white;
+  padding: 0.5vw 6vw;
+  width: 80vw;
+  height: 24vw;
+  background-color: rgba(128, 136, 136, 0.3);
+}
+
+.contactheader h3 {
+  color: white;
+  font-family: AlegreyaSans;
+  font-size: 40px;
+  font-weight: 500;
+  padding: 1.5vw 0 1.5vw 0;
+}
+.contactheader p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding-bottom: 2vw;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1vw;
+  padding: 0 20vw;
+}
+
+form input {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+input,
+input::placeholder {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+input[type="submit"] {
+  border: 2px solid white;
+  padding: 0.7vw 2vw;
+  align-self: center;
+}
+
+input[type="email"],
+input[type="text"] {
+  padding: 0.5vw 0 0.5vw 1vw;
+}
+input[type="textarea"] {
+  padding: 1.5vw 0 2vw 1vw;
+  text-align: left;
+}
+footer {
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  background: #2b3e51;
+  height: 9vw;
+}
+
+.copyright p {
+  padding: 3vw 0 2vw 10vw;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
